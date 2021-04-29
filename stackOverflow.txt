@@ -1,0 +1,16 @@
+How do I install the requests library?
+    pip3 install requests
+    pip3 list - verifies installed modules
+
+How do I accept input with python?
+    message = input("Message: ")
+
+How do I insert a variable into a text string with python?
+    \"text\" : \"" + message + "\"\r\n}"
+
+How can I test the status code response of an api call with python?
+    if response.status_code == 200:
+        print("Success!")
+    else:
+        print("Message failed. Code: ", response.status_code)
+        print(response.text)
